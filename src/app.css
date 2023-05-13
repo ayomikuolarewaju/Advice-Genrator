@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Poppins-Bold';
+		src: local('Poppins-Bold'), local('Poppins-Bold'), local('Poppins-Bold'), local('Poppins-Bold'),
+			url('/fonts/Poppins-Bold/Poppins-Bold.ttf');
+		font-weight: bold;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Poppins-BoldItalic';
+		src: local('Poppins-BoldItalic'), local('Poppins-BoldItalic'), local('Poppins-BoldItalic'),
+			local('Poppins-BoldItalic'), url('/fonts/Poppins-Bold/Poppins-BoldItalic.ttf');
+		font-weight: boldItalic;
+		font-display: swap;
+	}
+}
